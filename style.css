@@ -1,0 +1,78 @@
+
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/04/89/06/97/360_F_489069706_ap5WnSAGWRCLlHnFmgS6FYxhTE0GSIvA.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.todo-container {
+background-color:rgb(204, 165, 134);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 300px;
+text-align: center;
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+input[type="text"] {
+width: 80%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #3a3737;
+border-radius: 5px;
+}
+
+button {
+padding: 10px 20px;
+background-color: #397597;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #458ea0;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+background-color: #e9e0e0;
+padding: 10px;
+margin: 5px 0;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+li button {
+background-color: #d83226;
+color: white;
+border: none;
+padding: 5px;
+border-radius: 3px;
+cursor: pointer;
+}
+
+li button:hover {
+background-color: #c42e2c;
+}
